@@ -1,1 +1,0 @@
-apt update && apt upgrade -y && apt update --fix-missing && pkg install proot wget -y && wget https://raw.githubusercontent.com/Neo-Oli/termux-ubuntu/master/ubuntu.sh && bash ubuntu.sh && ./start-ubuntu.sh
