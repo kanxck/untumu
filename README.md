@@ -9,4 +9,4 @@ pkg update -y && pkg install wget -y && pkg install proot -y && wget https://raw
 ./startubuntu.sh
 
 # cmd ubuntu
-apt update && apt upgrade -y && apt install nano -y && apt install wget -y
+apt update && apt upgrade -y && apt install git -y && apt install nano -y && apt install wget -y
