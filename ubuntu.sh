@@ -122,12 +122,6 @@ printf "\e[0m"
 if [ "$1" = "-y" ];then
 install1
 elif [ "$1" = "" ];then
-printf "\x1b[38;5;214m[${time1}]\e[0m \x1b[38;5;127m[QUESTION]:\e[0m \x1b[38;5;87m Do you want to install ubuntu-in-termux? [Y/n] "
-
-read cmd1
-if [ "$cmd1" = "y" ];then
-install1
-elif [ "$cmd1" = "Y" ];then
 install1
 else
 printf "\x1b[38;5;214m[${time1}]\e[0m \x1b[38;5;203m[ERROR]:\e[0m \x1b[38;5;87m Installation aborted.\n"
