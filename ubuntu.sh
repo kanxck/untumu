@@ -1,5 +1,5 @@
 #!/data/data/com.termux/files/usr/bin/bash
-pkg update && pkg upgrade
+pkg update && pkg upgrade -y
 pkg install proot -y
 pkg install wget -y
 pkg install git -y
